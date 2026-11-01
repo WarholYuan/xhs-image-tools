@@ -1,0 +1,5 @@
+name: "clean-ai-info"
+title: "clean-ai-info · 清理图片的 AI 信息"
+description: "清理图片里的 AI 信息：删 AI 元信息（C2PA、EXIF、XMP、IPTC、PNG 生成参数、TC260 AIGC 标签），按需删画面上的 AI 标记（Gemini 星星、豆包、即梦、可灵、Sora、Veo 等）。只处理图片，不处理视频。用户说「清理/去掉 AI 信息」「去 AI 元信息」「删 AI 标签」「去 AI 水印标记」「查这张图是不是 AI 做的」，或给出图片/文件夹要求去 AI 痕迹时使用。不处理 SynthID 等看不见的像素水印。跟小红书去重一起做时，先跑这个、再去重（去重会写入新的手机拍摄信息，反过来会被这里删掉）。只删普通拍摄信息（机型、时间、GPS），不涉及 AI 的，用 xhs-dedup 的「只改拍摄信息」。"
+category: "Work and knowledge"
+include_in_prompt: true
